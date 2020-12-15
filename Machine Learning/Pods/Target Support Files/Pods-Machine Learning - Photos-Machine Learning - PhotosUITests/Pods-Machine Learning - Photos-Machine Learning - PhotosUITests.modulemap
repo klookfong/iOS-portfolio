@@ -1,0 +1,6 @@
+framework module Pods_Machine_Learning___Photos_Machine_Learning___PhotosUITests {
+  umbrella header "Pods-Machine Learning - Photos-Machine Learning - PhotosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
