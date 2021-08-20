@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+main{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+

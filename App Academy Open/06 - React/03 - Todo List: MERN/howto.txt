@@ -1,0 +1,57 @@
+Run the following commands:
+
+## NOTE: Dependencies: Yarn, Node
+
+
+# 1. Make two directories: client, server
+mkdir client
+mkdir server
+
+
+########################### CLIENT DIRECTORY ###########################
+# 2. TO CREATE THE REACT APP 
+yarn create react-app [APP NAME] --template typescript
+	# this is supposed to auto add babel and webpack
+
+# 3. TO ADD REDUX
+cd [APPLICATION PATH]
+yarn add redux react-redux redux-thunk @material-ui/core axios moment react-file-base64
+
+
+# 4. TO START THE APPLICATION
+cd [APPLICATION PATH]
+yarn start
+
+# TO TEST
+yarn test
+
+# TO BUILD
+yarn build
+
+########################### SERVER DIRECTORY ###########################
+# 5. Initialize an NPM project
+npm init -y
+
+# 6. Install Express, Cors, NodeMon, Mongoose and BodyParser
+npm install express cors nodemon mongoose body-parser 
+
+# 7. Create an index.js file
+cat > index.js 
+CONTROL + C 
+
+# 8. Import all of the Dependencies in the index.js file 
+import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser'; 
+import cors from 'cors';
+import nodemon from 'nodemon';
+
+# 9. Navigate to the package.json file and add the following: 
+-- under main: index.js
+"type": "module",
+
+-- inside scripts: {}
+"start": "nodemon index.js"
+
+# 10. TO START THE APPLICATION
+npm start

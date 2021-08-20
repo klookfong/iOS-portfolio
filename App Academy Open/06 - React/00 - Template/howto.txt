@@ -1,0 +1,21 @@
+Run the following commands:
+
+## Dependencies: Yarn, Node
+
+# TO CREATE THE REACT APP 
+yarn create react-app [APP NAME]
+	# this is supposed to auto add babel and webpack
+
+# TO ADD REDUX
+yarn add react react-redux
+
+
+# TO START THE APPLICATION
+cd [APPLICATION PATH]
+yarn start
+
+# TO TEST
+yarn test
+
+# TO BUILD
+yarn build

@@ -1,0 +1,40 @@
+.safeArea{
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 1%;
+    padding-bottom: 10%;
+}
+
+.componentContainer{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+.left{
+    margin-left: 10px;
+}
+
+.half{
+    width: 45%; 
+    display: inline;
+}
+
+.title{
+    margin-right: 70%;
+    margin-left: 10px;
+    display: inline;
+}
+
+.info{
+    display: inline;
+    font-size: 25px;
+}
+
+.sized-box{
+    height: 50px;
+}
+
+.selectedTab{
+    font-weight: bold;
+}
